@@ -1,0 +1,67 @@
+html{
+	height:100%;
+}
+
+body {
+	min-height:100%;
+	background-color: #ffffff;
+	color : #000;
+}
+#global{
+	padding-top:20px;
+}
+
+.blocFormulaire{
+	background: #f06400;
+}
+h2,h1{
+	color: #fff;
+	text-align: center;
+}
+.conf{
+	font-weight: bold;
+	font-size: 45px;
+	color: #fff;
+	text-align: center;
+}
+.pConf{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+.btn-default {
+	background-color: #4a4949;
+	color : #ffffff;
+	border : none;
+	border-radius: 30px;
+	padding : 5px 30px;
+}
+
+.mention-accroche {
+	font-weight: bold;
+	padding-top : 20px;
+	font-size:14px;
+}
+
+.margimg{
+	margin-top:20px;
+}
+.logo-desk{
+  	display: block;
+}
+.logo-mob{
+  	display: none;
+}
+@media screen and (max-width: 800px) {
+	h2{
+		font-size: 21px;
+		margin-top:0;
+	}
+	.logo-mob{
+		display: block;
+	}
+	.logo-desk{
+		display: none;
+	}
+}
